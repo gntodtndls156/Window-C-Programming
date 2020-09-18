@@ -1,0 +1,10 @@
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\bin\Debug\WindowsFormsHelloWorld.exe.config
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\bin\Debug\WindowsFormsHelloWorld.exe
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\bin\Debug\WindowsFormsHelloWorld.pdb
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.csprojAssemblyReference.cache
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.Form1.resources
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.Properties.Resources.resources
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.csproj.GenerateResource.cache
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.csproj.CoreCompileInputs.cache
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.exe
+C:\Users\Ham Seungwoo\Desktop\윈도우프로그래밍 실습\01주차실습\WindowsFormsHelloWorld\obj\Debug\WindowsFormsHelloWorld.pdb
