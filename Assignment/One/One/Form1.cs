@@ -12,7 +12,7 @@ namespace One
 {
     public partial class Form1 : Form
     {
-        Boolean RandomColor = true;
+        Boolean switchColor = true;
         Color color;
         public Form1()
         {
@@ -30,7 +30,7 @@ namespace One
             Graphics graphics = e.Graphics;
             Random random = new Random();
             //Color
-            if (RandomColor)
+            if (switchColor)
             {
                 color = Color.FromArgb(random.Next(0, 255), random.Next(0, 255), random.Next(0, 255));
             }
@@ -61,14 +61,14 @@ namespace One
 
         private void Change_BackgroundColor_Click(object sender, EventArgs e) // 배경색 컬러 변경
         {
-            RandomColor = true;
+            switchColor = true;
             panel1.Invalidate();
             
         }
 
         private void AreaPlus_Click(object sender, EventArgs e) // 영역 확대
         {
-            RandomColor = false;
+            switchColor = false;
             int X = panel1.Width, Y = panel1.Height;
             if (X >= 300)
             {
@@ -82,7 +82,7 @@ namespace One
 
         private void AreaMinus_Click(object sender, EventArgs e) // 영역 축소
         {
-            RandomColor = false;
+            switchColor = false;
             int X = panel1.Width, Y = panel1.Height;
             if (X <= 50)
             {
