@@ -31,13 +31,13 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -47,7 +47,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(48, 16);
             this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "왼쪽";
+            this.checkBox1.Text = "굵게";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -56,9 +56,9 @@
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(214, 126);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(60, 16);
+            this.checkBox2.Size = new System.Drawing.Size(48, 16);
             this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "가운데";
+            this.checkBox2.Text = "밑줄";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -69,16 +69,9 @@
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(60, 16);
             this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "오른쪽";
+            this.checkBox3.Text = "이탤릭";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
-            // 
-            // panel1
-            // 
-            this.panel1.Location = new System.Drawing.Point(12, 315);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(370, 83);
-            this.panel1.TabIndex = 3;
             // 
             // label1
             // 
@@ -112,6 +105,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
             this.radioButton1.Location = new System.Drawing.Point(33, 70);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(47, 16);
@@ -128,7 +122,6 @@
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(59, 16);
             this.radioButton2.TabIndex = 8;
-            this.radioButton2.TabStop = true;
             this.radioButton2.Text = "가운데";
             this.radioButton2.UseVisualStyleBackColor = true;
             this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
@@ -140,28 +133,37 @@
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(59, 16);
             this.radioButton3.TabIndex = 9;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "오른쪽";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // label3
+            // 
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Location = new System.Drawing.Point(12, 289);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(370, 72);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "저의 모양을 바꾸세요!!";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 450);
+            this.ClientSize = new System.Drawing.Size(394, 391);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "정렬&스타일";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -172,13 +174,13 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.Label label3;
     }
 }
 
