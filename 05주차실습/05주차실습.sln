@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 정렬 스타일", "05주
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 미니계산기", "2 미니계사니\2 미니계산기.csproj", "{2C647FEC-556A-4046-908B-99F656081DE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 진수변환", "3 진수변환\3 진수변환.csproj", "{222D5265-F1D4-4DE9-97AB-83854EF61F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 라디오버튼과 리스트상자", "4 라디오버튼과 리스트상자\4 라디오버튼과 리스트상자.csproj", "{F4F8E75E-5A2B-4DAB-87D8-AD706E0B8922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2C647FEC-556A-4046-908B-99F656081DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C647FEC-556A-4046-908B-99F656081DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C647FEC-556A-4046-908B-99F656081DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{222D5265-F1D4-4DE9-97AB-83854EF61F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222D5265-F1D4-4DE9-97AB-83854EF61F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222D5265-F1D4-4DE9-97AB-83854EF61F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222D5265-F1D4-4DE9-97AB-83854EF61F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F8E75E-5A2B-4DAB-87D8-AD706E0B8922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F8E75E-5A2B-4DAB-87D8-AD706E0B8922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F8E75E-5A2B-4DAB-87D8-AD706E0B8922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F8E75E-5A2B-4DAB-87D8-AD706E0B8922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
