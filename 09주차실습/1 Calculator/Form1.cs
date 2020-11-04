@@ -61,7 +61,6 @@ namespace _1_Calculator
             init(false);
             for (int i = 0; i <= 3; i++)
             {
-                Console.WriteLine("완료");
                 if (boolarr[i] && MAX < intarr[i])
                 {
                     

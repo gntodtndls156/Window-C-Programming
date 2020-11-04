@@ -40,7 +40,10 @@ namespace _2_Sum
 
         private new void Show()
         {
-            label2.Text = sum + "";
+            if (sum == 0)
+                label2.Text = "";
+            else
+                label2.Text = sum+"";
         }
         
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
