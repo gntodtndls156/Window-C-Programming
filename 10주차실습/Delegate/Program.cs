@@ -4,17 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1_DelegateMulti
+namespace Delegate
 {
     class Program
     {
-        // 델리게이트 CalcDelegate 타입은 2개의 정수를 전달하고, 반환값이 void인 메소드를 가리키는 타입을 정의
         delegate int CalcDelegate(int x, int y);
 
-        static void Plus(int x, int y) { Console.WriteLine("x + y ==>" + (x + y)); }
-        static void Minus(int x, int y) { Console.WriteLine("x - y ==>" + (x - y)); }
-        static void Multiple(int x, int y) { Console.WriteLine("x * y ==>" + (x * y)); }
-        static void Divide(int x, int y) { Console.WriteLine("x / y ==>" + (x / y)); }
+        static int Plus(int x, int y) { return x + y; }
+        static int Minus(int x, int y) { return x - y; }
 
         static void Main(string[] args)
         {
@@ -25,7 +22,6 @@ namespace _1_DelegateMulti
             CalcDelegate del2 = new CalcDelegate(Minus);
             result = del2(20, 10); // Minus() 호출
             Console.WriteLine("result = " + result);
-
         }
     }
 }

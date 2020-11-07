@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}</ProjectGuid>
+    <ProjectGuid>{BDCCCBB6-6496-4442-9247-E7264919C12A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_3_VectorClass</RootNamespace>
-    <AssemblyName>_3_VectorClass</AssemblyName>
+    <RootNamespace>Delegate</RootNamespace>
+    <AssemblyName>Delegate</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

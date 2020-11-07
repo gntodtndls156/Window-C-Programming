@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 DelegateMulti", "1 DelegateMulti\1 DelegateMulti.csproj", "{CE7C795E-FB74-4980-8F3F-164F36D5B6C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 EventApp", "EventApp\2 EventApp.csproj", "{C53BE7B3-3F7E-4774-8725-A6D8B0553230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 VectorClass", "3 VectorClass\3 VectorClass.csproj", "{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CE7C795E-FB74-4980-8F3F-164F36D5B6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE7C795E-FB74-4980-8F3F-164F36D5B6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE7C795E-FB74-4980-8F3F-164F36D5B6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53BE7B3-3F7E-4774-8725-A6D8B0553230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53BE7B3-3F7E-4774-8725-A6D8B0553230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53BE7B3-3F7E-4774-8725-A6D8B0553230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53BE7B3-3F7E-4774-8725-A6D8B0553230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620D35A0-BFE5-428A-95AC-923DDCCC5FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
