@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 MouseMoveApp", "1 MouseMoveApp\1 MouseMoveApp.csproj", "{B9F603E6-E0F6-4278-9F1E-6130848CD303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 KeyWinApp", "2 KeyWinApp\2 KeyWinApp.csproj", "{6B155CE6-9449-4552-8DBD-ADED53F48237}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9F603E6-E0F6-4278-9F1E-6130848CD303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9F603E6-E0F6-4278-9F1E-6130848CD303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9F603E6-E0F6-4278-9F1E-6130848CD303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9F603E6-E0F6-4278-9F1E-6130848CD303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B155CE6-9449-4552-8DBD-ADED53F48237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B155CE6-9449-4552-8DBD-ADED53F48237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B155CE6-9449-4552-8DBD-ADED53F48237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B155CE6-9449-4552-8DBD-ADED53F48237}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7CB87FE-D7B5-4138-A3AC-A9B1C9BCAB89}
+	EndGlobalSection
+EndGlobal
