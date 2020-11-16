@@ -16,5 +16,16 @@ namespace _1_MouseMoveApp
         {
             InitializeComponent();
         }
+
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            Point mousePoint = PointToClient(MousePosition);
+            int x = mousePoint.X;
+            int y = mousePoint.Y;
+
+            this.Text = "MouseMoveApp - (" + x + ", " + y + ")";
+        }
     }
+
 }
