@@ -49,7 +49,5 @@ namespace _1_Overriding
 			warMachine.Initialize();
 		}
 	}
-
-	
 }
 
