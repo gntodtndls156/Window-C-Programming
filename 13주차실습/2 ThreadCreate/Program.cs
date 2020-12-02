@@ -17,9 +17,11 @@ namespace _2_ThreadCreate
 
             t.Start();
             Console.WriteLine("스레드 우선순위 " + t.Priority);
+            t.Suspend();
             Console.WriteLine("스레드 시작 " + t.ThreadState + " " + t.GetHashCode());
             Console.WriteLine("주 스레드 종료 ");
             Thread.Sleep(1000);
+            
             // t.Abort(); // 스레드 강제종료
             Thread.Sleep(3000);
             t.Resume();
